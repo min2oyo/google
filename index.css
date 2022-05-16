@@ -1,11 +1,14 @@
-body {
-  background-color: #202124;
-  color: white;
+* {
   padding: 0;
   margin: 0;
 }
 
-ul {
+body {
+  background-color: #202124;
+  color: white;
+}
+
+header ul {
   list-style: none;
   float: right;
 }
@@ -25,4 +28,32 @@ footer {
   width: 100%;
   margin: 0;
   background-color: #171717;
+  color: #9AA0A6;
+}
+
+.footer1 {
+  border-bottom: 1px solid #212327;
+  padding: 14.5px;
+  padding-left: 30px;
+}
+
+.footer2 {
+  height: 46px;
+  line-height: 46px;
+}
+
+.footer2 li {
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+}
+
+.info1 {
+  float: left;
+  margin-left: 100px;
+}
+
+.info2 {
+  float: right;
+  margin-right: 100px;
 }
