@@ -14,8 +14,9 @@ header ul {
   float: right;
 }
 
-li {
+header li {
   display: inline-block;
+  margin: 13px;
 }
 
 /* main */
@@ -81,6 +82,7 @@ footer {
 }
 
 .footer2 li {
+  display: inline-block;
   margin: 0;
   padding: 0;
   margin-right: 30px;
