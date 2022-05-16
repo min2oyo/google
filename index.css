@@ -8,6 +8,7 @@ body {
   color: white;
 }
 
+/* header */
 header ul {
   list-style: none;
   float: right;
@@ -17,11 +18,48 @@ li {
   display: inline-block;
 }
 
+/* main */
 main {
   clear: both;
   text-align: center;
+  padding-top: 230px;
 }
 
+main h1 {
+  font-size: 100px;
+}
+
+main .input .search {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #5F6368;
+  background-color: #202124;
+  border-radius: 45px;
+  margin: 20px;
+}
+
+main .button {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+main .button button {
+  background-color: #303134;
+  border-width: 0;
+  color: white;
+  padding: 10px;
+  margin: 5px
+}
+
+main .language {
+  font-size: 15px;
+}
+
+main .language span {
+  color: #8AB4F8;
+}
+
+/* footer */
 footer {
   position: fixed;
   bottom: 0;
